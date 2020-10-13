@@ -16,6 +16,8 @@ body{
     font-size: 17px;
     line-height: 30px;
     font-family: 'NanumSquareRound';
+    word-break:keep-all !important;
+    overflow-x: hidden !important;
 }
 #section05{
     width: 100%;
@@ -100,7 +102,7 @@ body{
     float: left;
 }
 .span>h3:last-child{
-    width: 50%;
+    width: 100%;
     float: right;
     text-align: right;
 }
@@ -188,7 +190,7 @@ video{
 }
 #section05 .img-area>img{
     position: absolute;
-    width: 47%;
+    width: 40%;
     right: 0px;
     margin: -35% 0 0 0;
 }
@@ -197,12 +199,13 @@ video{
 }
 #section05 .text-area{
     width: 70%;
-    margin: 5% auto;
+    margin: 3% auto 4%;
+    padding: 3% 0;
     background: rgba(255,255,255,0.3);
     border-radius: 50px;
 }
 #section05 .text-area div{
-    padding: 1.5% 0;
+    padding: 0.8% 0;
 }
 #section05 .text-area .col-sm-8{
     font-size: 20px;
@@ -373,5 +376,34 @@ footer{
         width: 100%;
         background: rgba(255,255,255,0.3);
         border-radius: 50px;
+    }
+}
+@media(max-width: 420px){
+
+    #section01 .container-fluid{
+        background: url(../images/intro.jpg);
+        padding: 50% 0 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: -200px;
+        background-attachment: fixed;
+    }
+    #section02 .col-sm-12{
+        background: url(../images/intro-bg-media.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: 50%;
+        mix-blend-mode: multiply;
+        margin: 10% 0;
+        padding: -20% 0 0;
+    }
+    #section02 .main-tit{
+        margin: 0 ;
+    }
+
+    #section03 .col-sm-4{
+        padding: 0;
     }
 }
