@@ -1,0 +1,377 @@
+@font-face { font-family: 'HSBombaram'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/HSBombaram.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'NanumSquareRound'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff'); font-weight: normal; font-style: normal; }
+a{
+    color: inherit;
+    text-decoration: none;
+}
+a:hover{
+    color: inherit;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    background: #f09e9e;
+    color: #432a2f;
+    font-size: 17px;
+    line-height: 30px;
+    font-family: 'NanumSquareRound';
+}
+#section05{
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+.ba-font{
+    font-family: 'NanumSquareRound';
+    color: #432a2f;
+}
+.img-title{
+    width: 50%;
+    margin: 0 25%;
+}
+#section01 .container-fluid{
+    background: url(../images/intro.jpg);
+    padding: 7% 0 7%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 40%;
+    background-attachment: fixed;
+}
+#section01 .image-title>img{
+    width: 40%;
+    margin: 0 30%;
+}
+#section02 .col-sm-12{
+    background: url(../images/intro-bg.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center center;
+    mix-blend-mode: multiply;
+    padding:0 0 30%;
+}   
+
+
+.main-tit{
+    font-family: 'HSBombaram';
+    font-size: 37px;
+    line-height: 45px;
+    color: #ac4a51;
+    mix-blend-mode: multiply;
+}
+#section02 .main-tit{
+    margin: 0 0 4%;
+}
+
+#section02 .text-area{
+    margin: 0 auto;
+    width: 70%;
+    padding: 23% 0 5%;
+    font-size: 17px;
+    line-height: 30px;
+}
+.tit{
+    font-family: 'HSBombaram';
+    font-size: 37px;
+    color: #ac4a51;
+    mix-blend-mode: multiply;
+}
+.sub-tit{
+    font-family: 'HSBombaram';
+    font-size: 30px;
+    color: #ac4a51;
+    mix-blend-mode: multiply;
+}
+.sub-tit-1{
+    font-family: 'HSBombaram';
+    font-size: 20px;
+    color: #ac4a51 !important;
+    mix-blend-mode: multiply;
+}
+.sub-tit-1 h3{
+    margin-top: 0 !important;
+    color: #ac4a51 !important;
+}
+.span{
+    display: flex;
+}
+.span>h3:first-child{
+    width: 100%;
+    float: left;
+}
+.span>h3:last-child{
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+#section03 p{
+    font-size: 17px;
+    line-height: 30px;
+}
+#section03 .text-area{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    padding: 5% 10%;
+    margin: 5% 0;
+    background: rgba(255,255,255,0.1);
+}
+.race-box{
+    padding: 5% 0;
+}
+.race{
+    background: url(../images/race.png);
+    width: 100%;
+    height: 115px;
+    z-index: 999;
+    position: relative;
+    mix-blend-mode: multiply;
+}
+
+#section04 .tit{
+    background: url(../images/trailer-bg.png);
+    padding: 2% 0;
+    background-size: cover;
+    background-position: center;
+}
+#section04 h1{
+    color: #ac4a51 !important;
+    margin: 5% 0 0;
+}
+video{
+    width: 100%;
+}
+.sns{
+    padding-top: 1%;
+    vertical-align: middle;
+    padding-bottom: 1%;
+}
+.sns div{
+    color: #ffb4b4;
+    width: 100%;
+    background: #ab5a5a;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 60px;
+    transition: ease-in-out 0.3s;
+    font-family: 'NanumSquareRound';
+}
+.fb:hover{
+    background-color: #3850a0;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3) inset;
+}
+.tt:hover{
+    background-color: #3f7ec5;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3) inset;
+}
+.in:hover{
+    background-color: #8134af;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3) inset;
+}
+.sns img{
+    mix-blend-mode: overlay;
+    width: 50px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+#section05 .container{
+    margin: 10% auto;
+    width: 75%;
+    background: url(../images/event-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center  ;
+    /* padding-bottom: 5%; */
+}
+#section05 .img-area>img{
+    position: absolute;
+    width: 47%;
+    right: 0px;
+    margin: -35% 0 0 0;
+}
+#section05 .tit-area{
+    padding: 16% 0 0;
+}
+#section05 .text-area{
+    width: 70%;
+    margin: 5% auto;
+    background: rgba(255,255,255,0.3);
+    border-radius: 50px;
+}
+#section05 .text-area div{
+    padding: 1.5% 0;
+}
+#section05 .text-area .col-sm-8{
+    font-size: 20px;
+    line-height: 30px;
+}
+#section05 h2{
+    margin: 3% 0 2%;
+}
+#section05 .tit-area .ba-font{
+    font-size: 18px;
+    line-height: 24px;
+}
+#section05 .text-area .ba-font{
+    font-size: 24px;
+    font-weight: bold;
+}
+#section05 .btn{
+    color: #ffb4b4;
+    width: 30%;
+    height: 60px;
+    background: #ab5a5a;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 35% 5%;
+    transition: ease-in-out 0.3s;
+}
+#section05 .share{
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 60px;
+    font-family: 'NanumSquareRound';
+    
+}
+#section05 .btn:hover{
+    background: #914646;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3) inset;
+}
+
+footer{
+    margin: -30% 0 0;
+    padding: 50% 0;
+    background: url(../images/bottom-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media(max-width: 767px){
+    #section02 .col-sm-12{
+        background: url(../images/intro-bg-media.png);
+        background-repeat: no-repeat;
+        background-size: 90%;
+        background-position-x: center;
+        background-position-y: -10%;
+        mix-blend-mode: multiply;
+    }
+    .main-tit{
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .tit{
+        font-family: 'HSBombaram';
+        font-size: 20px;
+        color: #ac4a51;
+        mix-blend-mode: multiply;
+    }
+    .sub-tit{
+        font-family: 'HSBombaram';
+        font-size: 18px;
+        color: #ac4a51;
+        mix-blend-mode: multiply;
+    }
+    .sub-tit-1{
+        font-family: 'HSBombaram';
+        font-size: 15px;
+        color: #ac4a51 !important;
+        mix-blend-mode: multiply;
+    }
+    .ba-font{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    #section01 .container-fluid{
+        background: url(../images/intro.jpg);
+        padding: 50% 0 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-position-y: 40%;
+        background-attachment: fixed;
+    }
+    #section01 .image-title>img{
+        width: 80%;
+        margin: 0 10%;
+    }
+    #section01 .image-title>img:nth-child(2){
+        width: 100%;
+        margin: 0;
+    }
+    #section02 .main-tit{
+        margin: 7% 0 5%;
+    }
+
+    #section03{
+        padding: 15% 0;
+    }
+    #section03 img{
+        width: 80%;
+        margin: 12% 10% 0;
+    }
+    #section03 .row:nth-child(3){
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #section03 .ba-font{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    #section04{
+        padding: 10% 0;
+    }
+    #section04 .sns>div{
+        font-size: 16px;
+        line-height: 40px;
+        height: 40px;
+    }
+    #section04 .sns img{
+        width: 30px;
+    }
+
+    #section05{
+        text-align: center !important;
+    }
+    #section05 .ba-font{
+        font-size: 17px !important;
+    }
+    #section05 .btn{
+        color: #ffb4b4;
+        width: 90%;
+        height: 40px;
+        margin: 2% auto 0;
+    }
+    #section05 .share{
+        border-radius: 50px;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 40px;
+        font-family: 'NanumSquareRound';
+        margin: 0;
+    }
+    #section05 .container{
+        padding: 10%;
+        margin: 10% auto;
+        width: 90%;
+        background: url(../images/event-bg.png);
+        background-position: center center;
+        background-size: cover;
+        border-radius: 50px;
+    }
+    #section05 .tit-area .ba-font{
+        font-size: 14px !important;
+    }
+    #section05 .text-area{
+        width: 100%;
+        background: rgba(255,255,255,0.3);
+        border-radius: 50px;
+    }
+}
